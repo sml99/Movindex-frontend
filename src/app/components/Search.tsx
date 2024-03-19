@@ -29,9 +29,9 @@ export default function Search({
     }, 300);
 
     return (
-        <div className="relative flex-1 flex-shrink-0">
+        <div className="relative w-full">
             <Input
-                className="peer block w-full py-[9px] pl-10 "
+                className="peer block w-full py-2 pl-10 shadow-md  hover:shadow-lg focus:shadow-lg transition-all duration-200 ease-in-out rounded-md"
                 id="search"
                 placeholder={placeholder}
                 onChange={(e) => handleSearch(e.target.value)}
